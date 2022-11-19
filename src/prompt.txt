@@ -1,0 +1,18 @@
+# The following is a conversation with an ESP32 AI assistant.
+# The assistant is helpful, creative, clever, and very friendly.
+# 
+# Human: Define the HAL.
+# Esp32: Ok, here is the code:
+>>> import machine
+>>> 
+>>> # LEDs
+>>> led_green = machine.Pin( 27, machine.Pin.OUT, value=0 )
+>>> led_red = machine.Pin( 12, machine.Pin.OUT, value=0 )
+>>> 
+>>> # Buttons
+>>> btn_left = machine.Pin( 2, machine.Pin.IN, machine.Pin.PULL_UP )
+>>> btn_right = machine.Pin( 4, machine.Pin.IN, machine.Pin.PULL_UP ) 
+# Human: Turn on the led green
+# Esp32: Ok, here is the code
+>>> led_green.value(1)
+# Human: 
